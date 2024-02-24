@@ -1,0 +1,28 @@
+{
+  "name": "simple-react-pikaday",
+  "version": "1.0.0",
+  "description": "A react library using pikaday",
+  "main": "dist/DatePicker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist --presets @babel/preset-react"
+  },
+  "keywords": ["react", "datepicker", "pikaday"],
+  "author": "Remi P.",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3"
+  },
+  "dependencies": {
+    "moment": "^2.30.1",
+    "pikaday": "^1.8.2"
+  }
+}
